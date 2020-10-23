@@ -3,12 +3,11 @@
 #include <MFRC522Extended.h>
 #include "SPI.h"
 
-const int      delayval  =  50; // Time each pixel pauses to do it's duty.
-const int      PIN       =  2; // Data output to Adafruit NeoPixel
-const int      NUMPIXELS =  24; // Number of pixels in the ring ^
-const int      SS_PIN    =  10; // Data PIN for MFRC522
-const int      RST_PIN   =  9; // Reset PIN for MFRC522
-const int      TIME      =  150; // Time between each NeoPixel blink.
+const int      delayval  =  50; 
+const int      PIN       =  2; 
+const int      NUMPIXELS =  24; 
+const int      SS_PIN    =  10; 
+const int      RST_PIN   =  9; 
 
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
